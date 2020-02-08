@@ -18,10 +18,9 @@ class ProfileItem extends Component {
         <div className="col-lg-6 col-md-4 col-8">
         <h3>{profile.fullName}</h3>
         <p>
-        {profile.year} year at {profile.institution};
+        {profile.year};
         </p>
         <p>
-        {profile.location}
         </p>
        <Link to={"/profile/"+uid} className="btn btn-info">
         View Profile
