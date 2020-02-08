@@ -86,8 +86,8 @@ class CreateGuideProfile extends Component {
       <label htmlFor="institution">Name of your College/Institution *</label>
       <select name="institution" className="form-control" placeholder="Institution" onChange={this.onChange} value={this.state.institution} defaultValue={this.state.institution}>
       <option value="">----</option>
-      <option value="Ramaiah Institute of Technology">Ramaiah Institute of Technology</option>
-      <option value="Sahyadri College of Engineering">Sahyadri College of Engineering</option>
+      <option value="DR. BHIRAO Institute of Technology">DR. BHIRAO Institute of Technology</option>
+      <option value="INDIAN INSTITUTE OF Technology">INDIAN INSTITUTE OF Technology</option>
       <option value="Ambedkar Institute of Technology">Ambedkar Institute of Technology</option>
       <option value="Vivekananda College of Engineering">Vivekananda College of Engineering</option>
       <option value="National Institute Of Engineering">National Institute Of Engineering(NIE)</option>
@@ -97,9 +97,9 @@ class CreateGuideProfile extends Component {
       <label htmlFor="location">Location of your College/Institution *</label>
       <select name="location" className="form-control" placeholder="Location" onChange={this.onChange} value={this.state.location} defaultValue={this.state.location}>
       <option value="">----</option>
-      <option value="Bangalore">Bangalore</option>
-      <option value="Mangalore">Mangalore</option>
-      <option value="Puttur">Puttur</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Chennai">Chennai</option>
       <option value="Mysore">Mysore</option>
       </select>
       </div>
