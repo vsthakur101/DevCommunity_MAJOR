@@ -18,7 +18,7 @@ class ProfileItem extends Component {
         <div className="col-lg-6 col-md-4 col-8">
         <h3>{profile.fullName}</h3>
         <p>
-        {profile.year};
+        {profile.year} Year Student;
         </p>
         <p>
         </p>
