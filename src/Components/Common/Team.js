@@ -4,7 +4,6 @@ import VS from "./TeamPics/VS.jpeg";
 import Tushar from "./TeamPics/Tushar.jpeg"
 import Anonymous from "./TeamPics/Anonymous.jpg"
 import Akshay from "./TeamPics/Akshay.jpeg"
-import Anonymous from "./TeamPics/Anonymous.jpg"
 import Octicon, { getIconByName } from "@githubprimer/octicons-react";
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 
