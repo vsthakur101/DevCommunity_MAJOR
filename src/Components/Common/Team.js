@@ -1,10 +1,10 @@
 import React,{Component} from 'react'
 import {Badge,Card,CardImg, Button} from "react-bootstrap"
-import Lakshya from "./TeamPics/Lakshya.jpg";
-import Pranath from "./TeamPics/Pranath.jpeg"
-import Abhishek2 from "./TeamPics/Abhishek2.jpeg"
-import Sidharth from "./TeamPics/Sidharth.jpeg"
-import Rushi from "./TeamPics/Rushi.jpeg"
+import VS from "./TeamPics/VS.jpg";
+import Tushar from "./TeamPics/Tushar.jpeg"
+import Anonymous from "./TeamPics/Anonymous.jpg"
+import Akshay from "./TeamPics/Akshay.jpeg"
+import Anonymous from "./TeamPics/Anonymous.jpg"
 import Octicon, { getIconByName } from "@githubprimer/octicons-react";
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 
@@ -27,26 +27,26 @@ class Team extends Component {
     <div className="row">
    
     <Card style={{width:"22rem"}} className=" ma2">
-    <CardImg variant="top" src={Sidharth} />
+    <CardImg variant="top" src={VS} />
     <Card.Body>
-    <h3>K Sidhartha Nambiar</h3>
-    <h6>Popularly known as</h6><Badge variant="info">Nambiar</Badge>
+    <h3>VIDHYA SAGAR THAKUR</h3>
+    <h6>Popularly known as</h6><Badge variant="info">VS THAKUR</Badge>
     <p class="w3-opacity">Team Lead</p>
     {
     // <p>An ambivert coder who developes crush on every girl he sees</p>
     }
     <div className="row">
     <div className="center">
-    <a className="mh2 btn btn-dark rounded-circle" href="https://github.com/NambiarSidharth" target="_blank">
+    <a className="mh2 btn btn-dark rounded-circle" href="https://github.com/vsthakur101" target="_blank">
     <Octicon icon={getIconByName("mark-github")}/>
     </a>
     
-    <CopyToClipboard text="nambiar.sidharth00@gmail.com" onCopy={() => this.setState({copied:1})}>
+    <CopyToClipboard text="vsthakur.it0@gmail.com" onCopy={() => this.setState({copied:1})}>
     <Button variant="dark" className="mh2 rounded-circle" title="click to copy to clipboard">
     <Octicon icon={getIconByName("mail")}/>
     </Button>
     </CopyToClipboard>
-    <CopyToClipboard text="8848779798" onCopy={() => this.setState({copied:2})}>
+    <CopyToClipboard text="8448871841" onCopy={() => this.setState({copied:2})}>
     <Button variant="dark" className="mh2 rounded-circle">
     <Octicon icon={getIconByName("device-mobile")} />
     </Button> 
@@ -60,7 +60,7 @@ class Team extends Component {
     </Card>
 
     <Card  style={{width:"22rem"}} className="ma2">
-    <CardImg variant="top" src={Pranath}/>
+    <CardImg variant="top" src={Tushar}/>
     <Card.Body>
     <h3>Keshava Pranath K</h3>
     <h6>Popularly known as</h6><Badge variant="info">The unstoppable orator</Badge>
@@ -70,16 +70,16 @@ class Team extends Component {
     }
     <div className="row">
     <div className="center">
-    <a className="mh2 btn btn-dark rounded-circle" href="https://github.com/kpranath" target="_blank">
+    <a className="mh2 btn btn-dark rounded-circle" href="https://github.com/TusharGodyal" target="_blank">
     <Octicon icon={getIconByName("mark-github")}/>
     </a>
     
-    <CopyToClipboard text="kpranath@gmail.com" onCopy={() => this.setState({copied:3})}>
+    <CopyToClipboard text="tushargodyal1999@gmail.com" onCopy={() => this.setState({copied:3})}>
     <Button variant="dark" className="mh2 rounded-circle" title="click to copy to clipboard">
     <Octicon icon={getIconByName("mail")}/>
     </Button>
     </CopyToClipboard>
-    <CopyToClipboard text="8762919630" onCopy={() => this.setState({copied:4})}>
+    <CopyToClipboard text="7000000000" onCopy={() => this.setState({copied:4})}>
     <Button variant="dark" className="mh2 rounded-circle">
     <Octicon icon={getIconByName("device-mobile")} />
     </Button> 
@@ -94,26 +94,26 @@ class Team extends Component {
     </Card>
 
     <Card  style={{width:"22rem"}} className="ma2">
-    <CardImg variant="top" src={Abhishek2}/>
+    <CardImg variant="top" src={Anonymous}/>
     <Card.Body>
     <h3>Abhishek S</h3>
-    <h6>Popularly known as</h6><Badge variant="info">Boss Ambi</Badge>
+    <h6>Popularly known as</h6><Badge variant="info">Helping Hand</Badge>
     <p class="w3-opacity"></p>
     {
     // <p>A Boss personality who can burn each and everyone in the room with just a sentence</p>
     }       
     <div className="row">
     <div className="center">
-    <a className="mh2 btn btn-dark rounded-circle" href="https://github.com/NambiarSidharth" target="_blank">
+    <a className="mh2 btn btn-dark rounded-circle" href="https://github.com/vsthakur101" target="_blank">
     <Octicon icon={getIconByName("mark-github")}/>
     </a>
     
-    <CopyToClipboard text="abhishekman.s@gmail.com" onCopy={() => this.setState({copied: 5})}>
+    <CopyToClipboard text="vsthakur.it0@gmail.com" onCopy={() => this.setState({copied: 5})}>
     <Button variant="dark" className="mh2 rounded-circle" title="click to copy to clipboard">
     <Octicon icon={getIconByName("mail")}/>
     </Button>
     </CopyToClipboard>
-    <CopyToClipboard text="7619411710" onCopy={() => this.setState({copied: 6})}>
+    <CopyToClipboard text="8448871841" onCopy={() => this.setState({copied: 6})}>
     <Button variant="dark" className="mh2 rounded-circle">
     <Octicon icon={getIconByName("device-mobile")} />
     </Button> 
@@ -128,7 +128,7 @@ class Team extends Component {
     </Card>
 
     <Card  style={{width:"22rem"}} className="ma2">
-    <CardImg variant="top" src={Lakshya} />
+    <CardImg variant="top" src={Akshay} />
     <Card.Body>
     <h3>Lakshya Sharma</h3>
     <h6>Popularly known as</h6><Badge variant="info">Genetic algorithm forever</Badge>
@@ -138,16 +138,16 @@ class Team extends Component {
     }
     <div className="row">
     <div className="center">
-    <a className="mh2 btn btn-dark rounded-circle" href="https://github.com/Lakshya31" target="_blank">
+    <a className="mh2 btn btn-dark rounded-circle" href="https://github.com/AkshayBora" target="_blank">
     <Octicon icon={getIconByName("mark-github")}/>
     </a>
     
-    <CopyToClipboard text="lakshya.secret@gmail.com" onCopy={() => this.setState({copied:7})} >
+    <CopyToClipboard text="akshaybora5@gmail.com" onCopy={() => this.setState({copied:7})} >
     <Button variant="dark" className="mh2 rounded-circle" title="click to copy to clipboard">
     <Octicon icon={getIconByName("mail")}/>
     </Button>
     </CopyToClipboard>
-    <CopyToClipboard text="9741219832" onCopy={() => this.setState({copied:8})}>
+    <CopyToClipboard text="98000000000" onCopy={() => this.setState({copied:8})}>
     <Button variant="dark" className="mh2 rounded-circle">
     <Octicon icon={getIconByName("device-mobile")} />
     </Button> 
@@ -168,17 +168,17 @@ class Team extends Component {
     
     <div className="row ma1">
     <Card style={{width:"22rem"}} className=" ma2">
-    <CardImg variant="top" src={Rushi} />
+    <CardImg variant="top" src={Anonymous} />
     <Card.Body>
     <h3>Rushikesh C</h3>
-    <h6>Popularly known as</h6><Badge variant="info">Rushi</Badge>
+    <h6>Popularly known as</h6><Badge variant="info">Helping Hand</Badge>
     <p class="w3-opacity">Beta Tester</p>
     {
     // <p>Fit Traveller who codes while travelling and sleeps with protein cans to fullfill his dream of bulking up</p>
     }
     <div className="row">
     <div className="center">
-    <a className="mh2 btn btn-dark rounded-circle" href="https://github.com/rushikc" target="_blank">
+    <a className="mh2 btn btn-dark rounded-circle" href="https://github.com/" target="_blank">
     <Octicon icon={getIconByName("mark-github")}/>
     </a>
     </div>
