@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import {Badge,Card,CardImg, Button} from "react-bootstrap"
-import VS from "./TeamPics/VS.jpg";
+import VS from "./TeamPics/VS.jpeg";
 import Tushar from "./TeamPics/Tushar.jpeg"
 import Anonymous from "./TeamPics/Anonymous.jpg"
 import Akshay from "./TeamPics/Akshay.jpeg"
